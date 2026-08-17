@@ -143,20 +143,22 @@
   }
 }
 
-html,
-body,
-#root {
-  background-color: #0C0C0C;
-}
+@layer base {
+  html,
+  body,
+  #root {
+    background-color: #0C0C0C;
+  }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-body {
-  font-family: "Kanit", sans-serif;
+  body {
+    font-family: "Kanit", sans-serif;
+  }
 }
 
 .hero-heading {
